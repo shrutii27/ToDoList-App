@@ -1,0 +1,89 @@
+.todo-container {
+    max-width: 350px;
+    max-height: 300px;
+    margin: 30px auto;
+    padding: 30px;
+    background-color: #f7f7f7;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .input-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  input {
+    width: 70%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 20px;
+  }
+  
+  button {
+    background-color:   orangered;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color:  lightsalmon;
+  }
+  
+  .todo-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid  grey;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 3px;
+    background-color: white;
+  }
+  
+  .todo-item span.remove-button {
+    cursor: pointer;
+    color: #ff6347;
+    font-weight: bold;
+  }
+  
+  h1 {
+    font-size: 36px;
+    text-align: center;
+    color: darkblue;
+  }
+  
+  h2 {
+    font-size: 28px;
+    color:   black;
+    margin-top: 20px;
+  }
+  
+  #todoList {
+    list-style: none;
+    font-size: 20px;
+  }
+  
+  .app-todo-list {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+
+  body {
+    background-image: url('src/assets/2.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+
+  
+  
